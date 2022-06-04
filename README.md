@@ -24,6 +24,8 @@ cd <repository-dir>/facilitio-web
 npm install
 ```
 
+Install wasm-pack via https://rustwasm.github.io/wasm-pack/
+
 ## Build
 
 ```
