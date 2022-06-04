@@ -9,7 +9,7 @@ module.exports = {
     entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'index.js',
+        filename: 'index.[contenthash].js',
     },
     module: {
         rules: [
@@ -56,5 +56,5 @@ module.exports = {
 };
 
 // https://webpack.js.org/guides/typescript/
-// https://github.com/webpack-contrib/copy-webpack-plugin
+// https://webpack.js.org/plugins/copy-webpack-plugin/
 // https://github.com/gzuidhof/coi-serviceworker
