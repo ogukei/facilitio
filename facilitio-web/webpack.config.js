@@ -49,6 +49,7 @@ module.exports = {
                 { from: 'z3-solver/build/z3-built.wasm', context: 'node_modules' },
                 { from: 'z3-solver/build/z3-built.worker.js', context: 'node_modules' },
                 { from: 'coi-serviceworker/coi-serviceworker.min.js', context: 'node_modules' },
+                { from: 'bulma/css/bulma.min.css', context: 'node_modules' },
             ]
         })
     ]

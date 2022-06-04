@@ -1,6 +1,8 @@
 # Facilitio
 
-Solving Facility Layout Problem with Z3 on WebAssembly.
+Solving some facility layout problems with Z3 in Rust on WebAssembly
+
+DEMO: https://ogukei.github.io/facilitio/
 
 ## Setup
 
