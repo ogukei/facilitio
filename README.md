@@ -6,16 +6,16 @@ DEMO: https://ogukei.github.io/facilitio/
 
 ## Setup
 
-Install the latest npm using n on Ubuntu 20.04 LTS. Skip this step if you have already installed npm.
+Install node via Volta if you don't have npm installed.
+
+https://volta.sh/
 
 ```
-sudo apt install nodejs npm
-sudo npm install -g n
-sudo n stable
-sudo apt purge nodejs npm
-exec $SHELL -l
-node -v
-npm -v
+# install Volta
+curl https://get.volta.sh | bash
+
+# install Node
+volta install node
 ```
 
 Execute npm install.
